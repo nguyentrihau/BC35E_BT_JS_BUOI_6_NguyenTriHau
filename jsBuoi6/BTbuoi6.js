@@ -76,9 +76,9 @@ document.getElementById("btnTaoThe").onclick=function(){
     
     for(var i=1,a="";i <= 10;i++){
         if(i%2==0){
-            a += "<div style='background:red'>div chẵn</div>"
+            a += "<div style='background:red;color:white;padding:10px;text-transform:capitalize'>div chẵn</div>"
         }else{
-            a+= "<div style='background:blue'>div lẻ</div>"
+            a+= "<div style='background:blue;color:white;padding:10px;text-transform:capitalize'>div lẻ</div>"
         };
     };
     // output
